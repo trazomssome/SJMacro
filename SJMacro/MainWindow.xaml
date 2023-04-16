@@ -1,0 +1,23 @@
+﻿<Window x:Class="SJMacro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SJMacro"
+        mc:Ignorable="d"
+        Title="SJMacro" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Content="Target Process" FontWeight="Bold"/>
+            <TextBox Text=""
+                     Width="250" VerticalContentAlignment="Center" Margin="5,0"/>
+            <Button Content="Set Process" Padding="15,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
